@@ -56,7 +56,7 @@ def ChoosePivot(a, l_index, r_index, pivot_choice='first'):
 
 if __name__ =='__main__':
     a = [8, 5, 6,7,9,34,356,56,8, 25]
-    filename = r'/Coursera/Algorithms_Part1/DivideAndConquer/Week3/QuickSort.txt'
+    filename = r''
     a = np.loadtxt(filename, delimiter="\n", ).tolist()
     print('Pre Sorder List: ', a)
     pivot_choice = 'middle'
