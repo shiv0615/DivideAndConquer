@@ -41,7 +41,7 @@ def FindInversion(a):
 
 if __name__ =='__main__':
     a = [1,3,5,2,4,6,9,12,10,8,11]
-    filename = r'/Coursera/Algorithms_Part1/DivideAndConquer/Week2/iput.txt'
+    filename = r''
     a1 = np.loadtxt(filename, delimiter="\n",).tolist()
     a  = [int(elem) for elem in a1]
     sorted_a, pairs = FindInversion(a)
