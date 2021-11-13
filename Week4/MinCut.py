@@ -285,8 +285,7 @@ class Vertex():
 
 def main():
 
-    fpath = r'/Users/shivswe/Machine_Learning/Algorithms_Part1/DivideAndConquer/Week4/KagerMincCut.txt'
-    # fpath = r'/Users/shivswe/Machine_Learning/Algorithms_Part1/DivideAndConquer/Week4/SimpleInput.txt'
+    fpath = r''
     # g = Graph(inbuilt='SquareWithOneDiag', summary=False)
     g = Graph(fpath=fpath, summary=False)
     # g.visualize()
